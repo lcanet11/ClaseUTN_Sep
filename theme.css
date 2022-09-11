@@ -1,0 +1,36 @@
+.img-responsive {
+    max-width:100%;
+    height:auto;
+}
+
+.table-responsive {
+    overflow-x:auto; 
+}
+a:hover, a:active {
+    color:#6E9A06;
+}
+table.lamp, table.w3-table-all {
+    margin:16px 0;
+}
+/*opset av top, topnav, sidemenu, main, right og footer*/
+
+.top {
+    position:relative; 
+    background-color:#ffffff; 
+    height:68px; 
+    padding-top:20px; 
+    line-height:50px; 
+    overflow:hidden; 
+    z-index:1;
+}
+
+.ejemplo_clase{
+    color:rgb(255,255,255);
+}
+#ejemplo_id{
+    color:rgb(255,255,255);
+}
+
+input{
+    color:rgb(255,255,255);
+}
