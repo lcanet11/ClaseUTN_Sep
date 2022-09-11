@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+        <title>Clase 1</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+<<<<<<< HEAD
+        <div><p>Hola Mundo 10</p></div>
+=======
+        <div><p>Hola Mundo 20</p></div>
+>>>>>>> hf_1001
+        <form name="form_registro" onsubmit="registrarse(); return false">
+            <div>
+                <label>Nombre</label>
+                <input type="text" name="nombre" id="nombre_id">
+            </div>
+            <div id="nombre_error"></div>
+            <div>
+                <label>Apellido</label>
+                <input type="text" name="apellido" id="apellido_id">
+            </div>
+            <div>
+                <label>Tipo de seguro</label>
+                <select name="tipo_seguro" id="tipo_seguro_id" onchange="tipoSeguro()">
+                    <option value="1">Basico</option>
+                    <option value="2">Intermedio</option>
+                    <option value="3">Premium</option>
+                </select>
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" id="password_id">
+            </div>
+            <div id="mensaje"></div>
+            <button type="submit">Registrarse</button>
+        </form>
+        <button onclick="saludo()">Saludar</button>
+    </body>
+</html>
